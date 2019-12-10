@@ -1,4 +1,4 @@
-baseURL = "https://example.edu"
+baseURL = "https://kishimoto-banana.github.io/"
 languageCode = "ja-JP"
 title = "岸本 将志 / Masashi Kishimoto"
 theme = "avicenna"
@@ -58,56 +58,77 @@ timeout=3000
 		name = "北九州工業高等専門学校, 2008.04-2013.03"
 		description  = "準学士（工学）, 電気電子工学"
 
-[[params.publications]]
-  year="Preprint"
-
-  [[params.publications.paper]]
-    name = "Enim nunc faucibus a pellentesque sit amet porttitor"
-    authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
-    dest  = "Helga Zita Journal"
-    link = "https://mypaperishere.com"
-    code_link = "https://thecoderepo.com"
-    blog_link = "https://myblogaboutit.com"
-
-  [[params.publications.paper]]
-    name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
-    authors = "__Hadi Sinaee__,Les Larkins, Edra Ethier"
-    dest  = "Meklit Katlego Conference"
-    link = "https://mypaperishere.com"
-    code_link = "https://thecoderepo.com"
-    blog_link = "https://myblogaboutit.com"
 
 [[params.publications]]
-  year="2019"
+  category="スライド"
 
   [[params.publications.paper]]
-		name = "Feugiat sed lectus vestibulum mattis ullamcorper velit sed"
-		authors = "Caroll Comes, __Hadi Sinaee__"
-		dest  = "Udo Madhu Journal"
-		link = "https://mypaperishere.com"
-		code_link = "https://thecoderepo.com"
-		blog_link = ""
+    name = "マイクロアドにおけるCTR予測への取り組み"
+    link = "https://speakerdeck.com/kishimotobanana/maikuroadoniokeructryu-ce-hefalsequ-rizu-mi"
 
   [[params.publications.paper]]
-		name = "Venenatis urna cursus eget nunc. Nam aliquam sem et tortor consequat id porta nibh venenatis"
-		authors = "Les Larkins, Ana Alvardo, __Hadi Sinaee__ "
-		dest  = "Zorka Vita Conference"
-		link = "https://mypaperishere.com"
-		code_link = ""
-		blog_link = "https://myblogaboutit.com"
+    name = "【論文紹介】ATRank: An Attention-Based User Behavior Modeling Framework for Recommendation"
+    link = "https://speakerdeck.com/kishimotobanana/an-attention-based-user-behavior-modeling-framework-for-recommendation"
+
+[[params.publications]]
+  category="ブログ"
 
   [[params.publications.paper]]
-		name = "Aliquet eget sit amet tellus cras adipiscing enim eu turpis"
-		authors = "Les Larkins, __Hadi Sinaee__, Ana Alvardo"
-		dest  = "Lena Randa Conference"
-		link = "https://mypaperishere.com"
-		code_link = ""
-		blog_link = ""
+		name = "株式会社マイクロアドを退職して株式会社Gunosyに入社しました"
+		link = "https://pompom168.hatenablog.com/entry/2019/11/30/225453"
 
   [[params.publications.paper]]
-		name = "Orci eu lobortis elementum nibh tellus molestie nunc non blandit"
-		authors = "__Hadi Sinaee__, Caroll Comes"
-		dest  = "Thandeka Radhika Conference"
-		link = ""
-		code_link = ""
-		blog_link = ""
+		name = "WebDB Forum 2019で技術報告しました"
+		link = "https://pompom168.hatenablog.com/entry/2019/09/10/113000"
+
+  [[params.publications.paper]]
+		name = "Wikipediaを活用した表記ゆれへの対応"
+		link = "https://pompom168.hatenablog.com/entry/2019/08/09/144054"
+
+  [[params.publications.paper]]
+		name = "ダウンサンプリングによる予測確率のバイアス"
+		link = "https://pompom168.hatenablog.com/entry/2019/07/22/113433"
+
+  [[params.publications.paper]]
+		name = "滝沢カレンを作る技術"
+		link = "https://pompom168.hatenablog.com/entry/2019/07/15/174040"
+
+[[params.papers]]
+  category="原著論文"
+
+  [[params.papers.paper]]
+		name = "A spatiotemporal statistical model for eyeballs of human embryos"
+		authors = "__M. Kishimoto__, A. Saito, T. Takakuwa, S. Yamada, H. Matsuzoe, H. Hontani, and A. Shimizu"
+		dest  = "IEICE TRANSACTIONS on Information and Systems, E100.D(7), 1505–1515"
+		link = "https://www.jstage.jst.go.jp/article/transinf/E100.D/7/E100.D_2016EDP7493/_pdf"
+
+[[params.papers]]
+  category="国際会議"
+
+  [[params.papers.paper]]
+		name = "A Spatiotemporal Statistical Model for Landmarks of Oral and Maxillofacial Area During the HumanEmbryonic Period"
+		authors = "__M. Kishimoto__, A. Saito, T. Takakuwa, S. Yamada, and A. Shimizu"
+		dest  = "The International Forum on Medical Imaging in Asia 2017, Japan, 2017"
+
+  [[params.papers.paper]]
+		name = "Spatiotemporal statistical models of a human embryo"
+		authors = "A. Saito, __M. Kishimoto__, K. Kasahara, M. Tsujikawa, T. Takakuwa, S. Yamada, H. Matsuzoe, H. Hontani, and A. Shimizu"
+		dest  = "The International Forum on Medical Imaging in Asia 2019, Singapore, 2019"
+	
+[[params.papers]]
+  category="国内会議"
+
+  [[params.papers.paper]]
+		name = "Convolutional Neural Networkを用いた死亡時CT像からの皮質骨抽出処理の改良"
+		authors = "__岸本 将志__, 斉藤 篤, 山本 正二, 清水 昭伸"
+		dest  = "第34回医用画像工学会大会(JAMIT 2015), PP40, 金沢歌劇座(石川), 2015"
+
+  [[params.papers.paper]]
+		name = "ヒト胚子の眼球を対象とした時空間統計モデルに関する初期検討"
+		authors = "__岸本 将志__, 斉藤 篤, 大坂 美穂, 高桑 徹也, 山田 重人, 清水 昭伸"
+		dest  = "医用画像研究会(MI), MI2015–56,電気通信大学(東京), pp.39–44, 2015"
+
+  [[params.papers.paper]]
+		name = "A spatiotemporal statistical model for eyeballs of human embryos"
+		authors = "__M. Kishimoto__, A. Saito, M. Osaka, T. Takakuwa, S. Yamada, and A. Shimizu"
+		dest  = "the 35th JAMITannual meeting, OP6–1, Chiba, Japan, 2016"

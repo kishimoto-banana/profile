@@ -1,19 +1,19 @@
 <div class="introduction">
         {{ with .Site.Params.publications }}
-        <h4>記事</h4>
+        <h4>公開物</h4>
 
         {{- range $index, $publications := $.Site.Params.publications -}}
-        <div class="year">{{ $publications.year }}</div>
+        <h5>{{ $publications.category }}</h5>
     
         <ul>
             {{ range $elem_index, $publication := $publications.paper }}
             <li>
                 {{ if $publication.link }}
-                <a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, </a>
+                <a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}</a>
                 {{ else }}
-                <p class="publications"> {{ $publication.name }}, </p>
+                <p class="publications"> {{ $publication.name }}</p>
                 {{ end }}
-                {{ $publication.dest | markdownify }}.
+                {{ $publication.dest | markdownify }}
     
                 {{ if or ($publication.code_link) $publication.blog_link }}
                 <span class="code_blog">

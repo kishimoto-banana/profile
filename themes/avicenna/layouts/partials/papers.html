@@ -1,0 +1,24 @@
+<div class="introduction">
+	{{ with .Site.Params.papers }}
+	<h4>研究発表</h4>
+
+	{{- range $index, $papers := $.Site.Params.papers -}}
+	<h5>{{ $papers.category }}</h5>
+
+	<ul>
+		{{ range $elem_index, $paper := $papers.paper }}
+		<li>
+			{{ if $paper.link }}
+			<a href="{{ $paper.link }}" class="publications"> {{ $paper.name }} </a>, 
+			{{ else }}
+			<p class="publications"> {{ $paper.name }}, </p>
+			{{ end }}
+			
+			{{ $paper.authors | markdownify }}, 
+			{{ $paper.dest | markdownify }}
+		</li>
+		{{ end }}
+	</ul>
+	{{- end -}}
+	{{- end -}}
+</div>
