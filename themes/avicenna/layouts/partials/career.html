@@ -1,0 +1,22 @@
+<div class="introduction">
+        {{ with .Site.Params.projects }}
+        <h4>経歴</h4>
+        <ul>
+            {{- range $index, $projects_map := $.Site.Params.projects -}}
+    
+            {{ range $elem_index, $project := $projects_map.project }}
+            <li>
+                <p class="career">{{ $project.name }}</p>
+                {{ with $project.description }}
+                <span class="project_description">
+                    {{ . | markdownify}}
+                </span>
+                {{ end }}
+            </li>
+            {{ end }}
+    
+            {{- end -}}
+        </ul>
+        {{ end }}
+    </div>
+    
