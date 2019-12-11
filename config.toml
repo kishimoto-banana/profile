@@ -3,7 +3,7 @@ languageCode = "ja-JP"
 title = "岸本 将志 / Masashi Kishimoto"
 theme = "avicenna"
 googleAnalytics = ""
-timeout=3000
+timeout=3001
 
 [params]
   subtitle= "機械学習エンジニア"
