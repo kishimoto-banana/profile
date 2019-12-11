@@ -1,4 +1,4 @@
-version: 2.1
+version: 2.0
 jobs:
   build:
     branches:
@@ -11,10 +11,9 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "f3:cb:9f:69:21:90:2e:ea:5b:e8:6c:16:4a:6c:dc:b6"
-      - run: apk Update && apk add git
       - run:
-        name: building profile page
-        command: HUGO_ENV=production hugo -v
+          name: building profile page
+          command: HUGO_ENV=production hugo -v
       - deploy:
           name: Deploy to GitHub Pages
           command: ./deploy.sh
