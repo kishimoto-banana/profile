@@ -13,7 +13,6 @@ jobs:
           git submodule update --init
       - add_ssh_keys:
           fingerprints:
-          add
             - "91:df:5c:72:e7:53:a0:64:63:47:f3:72:e5:76:27:4c"
       - run: git config --global user.name "circleci"
       - run: git config --global user.email "drehbleistift@gmail.com"
