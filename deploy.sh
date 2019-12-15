@@ -22,4 +22,5 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
+echo $(git remote -v)
 git push origin master
