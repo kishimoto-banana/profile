@@ -8,12 +8,16 @@ jobs:
       - image: cibuilds/hugo:latest
     steps:
       - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - "f3:cb:9f:69:21:90:2e:ea:5b:e8:6c:16:4a:6c:dc:b6"
+      # - add_ssh_kesys:
+      #     fingerprints:
+      #       - "b0:97:c0:2c:dc:bf:4b:c4:73:5d:e3:ee:ff:51:dd:a4"
+      - run: git config --global user.name "circleci"
+      - run: git config --global user.email "drehbleistift@gmail.com"
       - run:
           name: building profile page
           command: HUGO_ENV=production hugo -v
+      # - run: rm -rf public
+      # - run: git submodule add -b master git@github.com:kishimoto-banana/kishimoto-banana.github.io.github.io.git public
       - deploy:
           name: Deploy to GitHub Pages
           command: ./deploy.sh
