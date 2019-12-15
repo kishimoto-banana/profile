@@ -93,6 +93,10 @@ timeout=3000
 		name = "滝沢カレンを作る技術"
 		link = "https://pompom168.hatenablog.com/entry/2019/07/15/174040"
 
+  [[params.publications.paper]]
+		name = "Wikipedia2Vecを用いた文書分類"
+		link = "https://developers.microad.co.jp/entry/2018/11/15/153652"
+
 [[params.papers]]
   category="原著論文"
 
