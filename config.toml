@@ -3,7 +3,7 @@ languageCode = "ja-JP"
 title = "岸本 将志 / Masashi Kishimoto"
 theme = "avicenna"
 googleAnalytics = ""
-timeout=3001
+timeout=3000
 
 [params]
   subtitle= "機械学習エンジニア"
@@ -35,11 +35,11 @@ timeout=3001
 [[params.projects]]
 
  [[params.projects.project]]
-		name = "株式会社Gunosy, 2019.11-"
+		name = "株式会社Gunosy, 2019.11--"
 		description  = "機械学習エンジニア"
 
  [[params.projects.project]]
-		name = "機械学習マイクロアド, 2018.03-2019.10"
+		name = "株式会社マイクロアド, 2018.03-2019.10"
 		description  = "機械学習エンジニア"
 
  [[params.projects.project]]
