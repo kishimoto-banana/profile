@@ -11,9 +11,9 @@ jobs:
       - run: |
           git submodule sync
           git submodule update --init
-      # - add_ssh_kesys:
-      #     fingerprints:
-      #       - "b0:97:c0:2c:dc:bf:4b:c4:73:5d:e3:ee:ff:51:dd:a4"
+      - add_ssh_kesys:
+          fingerprints:
+            - "91:df:5c:72:e7:53:a0:64:63:47:f3:72:e5:76:27:4c"
       - run: git config --global user.name "circleci"
       - run: git config --global user.email "drehbleistift@gmail.com"
       # - run:
