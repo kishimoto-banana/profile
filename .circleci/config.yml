@@ -8,6 +8,9 @@ jobs:
       - image: cibuilds/hugo:latest
     steps:
       - checkout
+      - run: |
+          git submodule sync
+          git submodule update --init
       # - add_ssh_kesys:
       #     fingerprints:
       #       - "b0:97:c0:2c:dc:bf:4b:c4:73:5d:e3:ee:ff:51:dd:a4"
