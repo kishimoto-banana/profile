@@ -2,7 +2,7 @@ baseURL = "https://kishimoto-banana.github.io/"
 languageCode = "ja-JP"
 title = "岸本 将志 / Masashi Kishimoto"
 theme = "avicenna"
-googleAnalytics = ""
+googleAnalytics = "UA-138135695-2"
 timeout=3000
 
 [params]
