@@ -14,13 +14,8 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "91:df:5c:72:e7:53:a0:64:63:47:f3:72:e5:76:27:4c"
-      - run: git config --global user.name "circleci"
+      - run: git config --global user.name "kishimoto-banana"
       - run: git config --global user.email "drehbleistift@gmail.com"
-      # - run:
-      #     name: building profile page
-      #     command: HUGO_ENV=production hugo -v
-      # - run: rm -rf public
-      # - run: git submodule add -b master git@github.com:kishimoto-banana/kishimoto-banana.github.io.github.io.git public
       - deploy:
           name: Deploy to GitHub Pages
           command: ./deploy.sh
