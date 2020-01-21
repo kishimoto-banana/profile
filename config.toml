@@ -72,6 +72,9 @@ timeout=3000
 
 [[params.publications]]
   category="ブログ"
+  [[params.publications.paper]]
+		name = "はてなブログのブックマーク数を予測するwebアプリを作った"
+		link = "https://pompom168.hatenablog.com/entry/2020/01/21/080000"
 
   [[params.publications.paper]]
 		name = "株式会社マイクロアドを退職して株式会社Gunosyに入社しました"
