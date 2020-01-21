@@ -60,6 +60,14 @@ timeout=3000
 
 
 [[params.publications]]
+  category="サービス"
+
+  [[params.publications.paper]]
+    name = "Velvet"
+    link = "https://hatena-velvet.com"
+	desc = "はてなブログの記事の内容をもとにブックマーク数を予測するwebアプリ"
+
+[[params.publications]]
   category="スライド"
 
   [[params.publications.paper]]
