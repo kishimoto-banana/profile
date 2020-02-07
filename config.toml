@@ -9,6 +9,7 @@ timeout=3000
   subtitle= "機械学習エンジニア"
   skills= "#機械学習 #自然言語処理 #画像認識 #Python #Go #Docker #Digdag #AWS"
   blog="https://pompom168.hatenablog.com/"
+  lapras="https://lapras.com/public/3658FRT"
 
 [[params.affilation]]
   name = "株式会社Gunosy"
